@@ -12,5 +12,5 @@ from chaos_game_base import chaos
 game = chaos.DefaultFernChaosGame()
 game_out = game.play(60000)
 game_out.color('red')
-game_out.plot()
+game_out.plot(size=(8,6))
 ```

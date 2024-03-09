@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "chaos_game_base"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Pragalbh Garg", email="pragalbh.garg@gmail.com" },
 ]

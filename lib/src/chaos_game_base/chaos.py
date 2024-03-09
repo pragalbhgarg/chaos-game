@@ -56,9 +56,9 @@ class ChaosGameOutput:
     else:
       print(f"invalid arg {colors} of type {type(colors)} for the function color")
 
-  def plot(self, size=8):
+  def plot(self, size=(8,8)):
     colors = self.c_out if len(self.c_out) == len(self.x_out) else self.c
-    plt.figure(figsize=(size,size))
+    plt.figure(figsize=(size[0],size[1]))
     plt.scatter(self.x_out, self.y_out, marker='.', s=0.5, color=colors)
     plt.show()
 
