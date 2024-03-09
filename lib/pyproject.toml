@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chaos_game_base"
+version = "0.0.1"
+authors = [
+  { name="Pragalbh Garg", email="pragalbh.garg@gmail.com" },
+]
+description = "Chaos game base implementation"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pragalbhgarg/chaos-game"
