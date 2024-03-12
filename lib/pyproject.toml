@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "chaos_game_base"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Pragalbh Garg", email="pragalbh.garg@gmail.com" },
 ]
@@ -14,6 +14,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "random",
+]
 [project.urls]
 Homepage = "https://github.com/pragalbhgarg/chaos-game"

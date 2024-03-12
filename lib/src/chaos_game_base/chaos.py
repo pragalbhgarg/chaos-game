@@ -1,13 +1,7 @@
 # @title imports
 import matplotlib.pyplot as plt
-from random import randrange
-import random
-import math
 import numpy as np
-import matplotlib.cm as cm
 from random import choices
-from collections import Counter
-import time
 
 #  @title Helper Functions
 
